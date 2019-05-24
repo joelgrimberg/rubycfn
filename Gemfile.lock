@@ -4,7 +4,7 @@ PATH
     rubycfn (0.1.8)
       activesupport (~> 5.1.5)
       dotenv (~> 2.4.0)
-      json (~> 2.1.0)
+      json (>= 2.1, < 2.3)
       neatjson (~> 0.8.4)
       tty-prompt (>= 0.16, < 0.19)
 
@@ -45,7 +45,7 @@ GEM
       rspec (>= 2.99.0, < 4.0)
     i18n (1.5.1)
       concurrent-ruby (~> 1.0)
-    json (2.1.0)
+    json (2.2.0)
     launchy (2.4.3)
       addressable (~> 2.3)
     listen (3.1.5)
