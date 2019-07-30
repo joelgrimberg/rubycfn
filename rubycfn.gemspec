@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(/(?:test|spec|features)/)
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "neatjson", "~> 0.8.4"
+  spec.add_runtime_dependency "neatjson", ">= 0.8.4", "< 0.10.0"
   spec.add_runtime_dependency "json", ">= 2.1", "< 2.3"
   spec.add_runtime_dependency "activesupport", ">= 5.1.5", "< 5.3.0"
   spec.add_runtime_dependency "tty-prompt", ">= 0.16", "< 0.19"
