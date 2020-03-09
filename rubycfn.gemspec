@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "neatjson", "~> 0.8.4"
   spec.add_runtime_dependency "json", ">= 2.1", "< 2.3"
   spec.add_runtime_dependency "activesupport", ">= 5.1.5", "< 5.3.0"
-  spec.add_runtime_dependency "tty-prompt", ">= 0.16", "< 0.19"
+  spec.add_runtime_dependency "tty-prompt", ">= 0.16", "< 0.22"
   spec.add_runtime_dependency "dotenv", ">= 2.4", "< 2.8"
 
   spec.add_development_dependency "awesome_print", "~> 1.2"
